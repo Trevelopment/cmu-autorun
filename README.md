@@ -7,4 +7,4 @@ This apps activate only boot process.
 1. Activate `autorun` by USB installer or write from yourself.
 2. copy example script from `sdcard` directory. 
 
-Example `dryrun` copy `run.sh` to SDCard. After reboot cmu display will show "AUTORUN Activated"
+Example : Select file from `dryrun`. Copy `run.sh` to SDCard. After reboot cmu display will show "AUTORUN Activated"
