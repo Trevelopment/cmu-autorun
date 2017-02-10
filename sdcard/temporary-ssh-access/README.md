@@ -1,17 +1,5 @@
 http://mazda3revolution.com/forums/2014-2016-mazda-3-skyactiv-audio-electronics/57714-infotainment-project-584.html
 
-* autorun
-```bash
-#!/bin/sh
-# /data_persist/dev/bin/autorun
-echo 1 > /sys/class/gpio/Watchdog\ Disable/value
-sleep 40
-if [ -e /mnt/sd_nav/run.sh ]
-then
-  sh /mnt/sd_nav/run.sh
-fi
-```
-
 # อธิบาย
 เฟิร์มแวร์ 56.00.513 เปลี่ยนแปลงการล๊อคอิน ทำให้วิธีที่เคยทำได้กับ 56.00.100/230/240 ใช้ไม่ได้ใน 513 สรุปที่เปลี่ยนไปมีดังนี้
 * ใช้ SSH ผ่าน WiFi ไม่ได้
