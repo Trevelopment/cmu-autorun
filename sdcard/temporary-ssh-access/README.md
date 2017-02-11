@@ -1,16 +1,5 @@
 http://mazda3revolution.com/forums/2014-2016-mazda-3-skyactiv-audio-electronics/57714-infotainment-project-584.html
 
-autorun
-
-#!/bin/sh
-# Disable watchdog
-echo 1 > /sys/class/gpio/Watchdog\ Disable/value
-# Set environment
-DIR=$(dirname $(readlink -f $0))
-PATH=$PATH:/bin:/sbin:/usr/bin:/usr/sbin
-/jci/scripts/jci-fw.sh stop
-/usr/sbin/sshd -D -p 7777 -o "AuthorizedKeysFile /tmp/data_persist/mazda-ssh.pub" -o "StrictModes no" 
-
 # อธิบาย
 เฟิร์มแวร์ 56.00.513 เปลี่ยนแปลงการล๊อคอิน ทำให้วิธีที่เคยทำได้กับ 56.00.100/230/240 ใช้ไม่ได้ใน 513 สรุปที่เปลี่ยนไปมีดังนี้
 * ใช้ SSH ผ่าน WiFi ไม่ได้

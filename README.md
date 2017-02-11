@@ -7,4 +7,18 @@ This apps activate only boot process.
 1. Activate `autorun` by USB installer or write from yourself.
 2. copy example script from `sdcard` directory. 
 
+* autorun
+
+```bash
+#!/bin/sh
+# /data_persist/dev/bin/autorun
+echo 1 > /sys/class/gpio/Watchdog\ Disable/value
+sleep 40
+if [ -e /mnt/sd_nav/run.sh ]
+then
+  sh /mnt/sd_nav/run.sh
+fi
+```
+
+
 Example : Select file from `dryrun`. Copy `run.sh` to SDCard. After reboot cmu display will show "AUTORUN Activated"
