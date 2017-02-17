@@ -1,5 +1,9 @@
 http://mazda3revolution.com/forums/1280610-post1532.html
 
+#### IMPORTANT: All changes happen at your own risk!
+##### This tools have no protection. Anyone who is unsure should leave it alone, ask someone with experience to help or ask in the forum.
+##### I am not responsible for damages that may incur from the use.
+
 # cmu-autorun
 MZD CMU SDCard apps for recovery
 This apps activate only boot process. 
