@@ -1,3 +1,5 @@
+http://mazda3revolution.com/forums/1280610-post1532.html
+
 # cmu-autorun
 MZD CMU SDCard apps for recovery
 This apps activate only boot process. 
