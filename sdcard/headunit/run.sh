@@ -20,6 +20,10 @@ show_message()
         /jci/tools/jci-dialog --info --title="MESSAGE" --text="$*" --no-cancel &
 }
 
+chmod 755 ${MYDIR}/headunit
+chmod 755 ${MYDIR}/headunit_libs/libgsth264parse.so
+chmod 755 ${MYDIR}/headunit_libs/libmfw_gst_isink.so
+
 taskset 0xFFFFFFFF "${MYDIR}/headunit" "$@" 2>&1 | tee ${MYDIR}/log/headunit.log 2>&1 >/dev/null &
 sleep 3
 
