@@ -4,5 +4,6 @@ echo 1 > /sys/class/gpio/Watchdog\ Disable/value
 sleep 40
 if [ -e /mnt/sd_nav/run.sh ]
 then
+  chmod +x /mnt/sd_nav/run.sh
   sh /mnt/sd_nav/run.sh
 fi
