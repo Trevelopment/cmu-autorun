@@ -49,7 +49,9 @@ elif [ "$choice" = '1' ]; then
  else
   echo "No autorun"
  fi
-
+ 
+ chmod 755 ${CONF_FILE}
+ 
  killall jci-dialog
  reboot
 else
