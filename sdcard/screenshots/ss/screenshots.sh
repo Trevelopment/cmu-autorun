@@ -64,3 +64,4 @@ then
 	sleep 15
 	killall jci-dialog
 fi
+
