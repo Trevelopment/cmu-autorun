@@ -1,3 +1,3 @@
 #!/bin/sh
 # dry run example : run.sh
-/jci/tools/jci-dialog --title="Ready" --text="AUTORUN Activated" --ok-label='OK' --no-cancel
+/jci/tools/jci-dialog --title="SUCCESS" --text="AUTORUN ACTIVATED!" --ok-label='OK' --no-cancel
